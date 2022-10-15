@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.menu-button {
+  width: 40px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+.bar {
+  display: block;
+  width: 32px;
+  height: 6px;
+  margin: 4px auto;
+  background-color: black;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.home {
+  background-image: url('backpro.png');
+  background-repeat: no-repeat;
+  padding: 20px 5%;
+}
+
+.home h1 {
+  color: #ec5242;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.title {
+  color: #f24b14;
+  font-size: 32px;
+  line-height: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.home p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3b3e47;
+}
+
+.paragraph-box {
+  background-color: #f7f7f7;
+  border: 4px solid white;
+  padding: 13px 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #272a31;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 27px;
+}
+
+.location {
+  color: #686666;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+
+.program {
+  background-image: url('bak.png');
+  color: white;
+  padding: 3%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  justify-items: center;
+}
+
+.program-title {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.line-small {
+  height: 1px;
+  width: 34px;
+  background-color: #ec5242;
+  margin-bottom: 20px;
+}
+
+.program-box {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lecture {
+  display: grid;
+  grid-template-columns: 40% 54%;
+  justify-content: space-between;
+  background-color: rgba(136, 136, 136, 0.3);
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.program-left-text {
+  display: flex;
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.icons {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.program-button {
+  background-color: #ec5242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  height: 80px;
+  margin-bottom: 35px;
+  padding: 30px 30px;
+  text-align: center;
+  margin-top: 35px;
+  cursor: pointer;
+}
