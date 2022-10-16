@@ -330,6 +330,56 @@ footer {
   display: none;
 }
 
+.menu-button.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-button.active .bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+  background-color: #fff;
+}
+
+.menu-button.active .bar:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+  background-color: #fff;
+}
+
+.menu-desktop.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop {
+  position: absolute;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+  height: 100vh;
+  left: -100%;
+  top: 0;
+  background-color: #ec5242;
+  mix-blend-mode: multiply;
+  transition: 0.3s;
+  backdrop-filter: blur(8px);
+}
+
+.pop.active {
+  left: 0;
+  padding-top: 50px;
+  padding-left: 8%;
+}
+
+.menu-links {
+  list-style: none;
+}
+
+.menu-links a {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 @media only screen and (min-width: 768px) {
   .menu-button {
     display: none;
