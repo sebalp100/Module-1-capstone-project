@@ -312,3 +312,156 @@ footer {
 .logo-bottom img {
   width: 80px;
 }
+
+.whole-program {
+  display: none;
+}
+
+.desktop-partners {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #home-link {
+    color: #ec5242;
+  }
+
+  .desktop-nav a {
+    text-decoration: none;
+    color: #3b3e47;
+    font-weight: 600;
+    padding-left: 40px;
+  }
+
+  .logo img {
+    height: 80px;
+    padding-left: 20%;
+  }
+
+  .campaign-button {
+    border: 4px solid #ec5242;
+    color: #ec5242;
+    padding: 10px;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .home {
+    padding: 8% 15%;
+    background-position-y: -99px;
+  }
+
+  .home h1 {
+    font-size: 40px;
+  }
+
+  .title {
+    font-size: 55px;
+    line-height: normal;
+    max-width: 81%;
+  }
+
+  .date {
+    font-size: 30px;
+  }
+
+  .location {
+    font-size: 20px;
+  }
+
+  .program-box {
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .lecture {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 213px;
+    padding: 40px 15px;
+    gap: 20px;
+    line-height: 22px;
+  }
+
+  .program-button {
+    display: none;
+  }
+
+  .whole-program {
+    display: flex;
+    margin-top: 60px;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }
+
+  .whole-program h2 {
+    font-weight: 100;
+    cursor: pointer;
+  }
+
+  .desktop-partners {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners {
+    padding-bottom: 20px;
+  }
+
+  .partner-names {
+    gap: 40px;
+  }
+
+  footer {
+    background-color: #f7f7f7;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .bottom-text p {
+    font-weight: 600;
+    padding: 40px;
+  }
+
+  .logo-bottom img {
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .paragraph-box {
+    max-width: 62%;
+    padding: 25px 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .campaign-container {
+    margin-left: -7%;
+  }
+
+  .desktop-nav a {
+    padding-left: 60px;
+  }
+
+  .program-box {
+    padding-left: 0;
+  }
+}
