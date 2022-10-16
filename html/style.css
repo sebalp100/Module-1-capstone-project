@@ -169,10 +169,11 @@ body {
   padding-bottom: 20px;
 }
 
-.about-parag {
+.about-parag,
+.about-more {
   font-size: 14px;
   font-weight: 600;
-  color: #3b3e47;
+  color: #686666;
 }
 
 .contact,
@@ -309,7 +310,11 @@ footer {
   color: #3b3e47;
 }
 
-.logo-bottom img {
+.logo-bottom {
+  display: none;
+}
+
+.logo-bottom-mobile img {
   width: 80px;
 }
 
@@ -318,6 +323,10 @@ footer {
 }
 
 .desktop-partners {
+  display: none;
+}
+
+.about-more {
   display: none;
 }
 
@@ -440,8 +449,108 @@ footer {
     padding: 40px;
   }
 
+  .logo-bottom {
+    display: block;
+  }
+
   .logo-bottom img {
     width: 120px;
+  }
+
+  .about {
+    align-items: center;
+  }
+
+  .about h1 {
+    display: none;
+  }
+
+  .about h2 {
+    margin-top: 90px;
+    font-size: 44px;
+    max-width: 50%;
+    line-height: normal;
+    align-self: center;
+  }
+
+  .line-smallest {
+    margin-bottom: 30px;
+  }
+
+  .about-box {
+    max-width: 65%;
+    padding: 25px 47px;
+    margin-bottom: 40px;
+  }
+
+  .about-more {
+    display: block;
+  }
+
+  .contact,
+  .mail {
+    font-size: 15px;
+  }
+
+  .mail {
+    margin-bottom: 80px;
+  }
+
+  .about-logo {
+    align-items: center;
+  }
+
+  .about-logo p {
+    padding-bottom: 0;
+  }
+
+  .logo-box {
+    margin-top: 40px;
+    width: 500px;
+  }
+
+  hr {
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+    border: none;
+    width: 110%;
+  }
+
+  .past-summits {
+    padding-top: 20px;
+  }
+
+  .about-pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  .image1,
+  .image2 {
+    min-width: 35%;
+    background-size: cover;
+    margin-bottom: 90px;
+  }
+
+  .noshow {
+    display: none;
+  }
+
+  .about-foot {
+    background-color: #272a31;
+    color: #d4d4d4;
+  }
+
+  #text-about {
+    font-weight: 100;
+  }
+
+  .logo-bottom-mobile {
+    display: none;
   }
 }
 
