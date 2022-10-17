@@ -74,7 +74,7 @@ body {
   padding-bottom: 50px;
 }
 
-.program {
+#program {
   background-image: url('bak.png');
   color: white;
   padding: 3%;
@@ -380,6 +380,52 @@ footer {
   font-weight: 700;
 }
 
+#mainSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+  align-items: center;
+}
+
+.speakerTitle {
+  padding-bottom: 40px;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.mainDiv {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+}
+
+.mainDiv img {
+  max-width: 31%;
+}
+
+.cardh2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.job {
+  font-size: 14px;
+  color: #ec5242;
+  font-style: oblique;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-size: 12px;
+}
+
 @media only screen and (min-width: 768px) {
   .menu-button {
     display: none;
@@ -415,6 +461,11 @@ footer {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     cursor: pointer;
+  }
+
+  .campaign-button:hover {
+    background-color: #ec5242;
+    color: #fff;
   }
 
   .home {
@@ -456,6 +507,11 @@ footer {
     padding: 40px 15px;
     gap: 20px;
     line-height: 22px;
+    cursor: pointer;
+  }
+
+  .lecture:hover {
+    border: 2px solid white;
   }
 
   .program-button {
@@ -473,6 +529,11 @@ footer {
   .whole-program h2 {
     font-weight: 100;
     cursor: pointer;
+  }
+
+  .whole-program h2:hover,
+  .whole-program:hover {
+    color: #ec5242;
   }
 
   .desktop-partners {
@@ -584,6 +645,12 @@ footer {
     min-width: 35%;
     background-size: cover;
     margin-bottom: 90px;
+    transition: transform 0.3s;
+  }
+
+  .image1:hover,
+  .image2:hover {
+    transform: scale(1.5);
   }
 
   .noshow {
@@ -601,6 +668,10 @@ footer {
 
   .logo-bottom-mobile {
     display: none;
+  }
+
+  #mainSection {
+    background-color: #f7f7f7;
   }
 }
 
