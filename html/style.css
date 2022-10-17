@@ -391,12 +391,20 @@ footer {
   padding-bottom: 40px;
 }
 
-.mainContainer {
+.mainContainer,
+.mainContainer3,
+.mainContainer4,
+.mainContainer5,
+.mainContainer6 {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.mainDiv {
+.mainDiv,
+.mainDiv3,
+.mainDiv4,
+.mainDiv5,
+.mainDiv6 {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -405,7 +413,11 @@ footer {
   margin-bottom: 50px;
 }
 
-.mainDiv img {
+.mainDiv img,
+.mainDiv3 img,
+.mainDiv4 img,
+.mainDiv5 img,
+.mainDiv6 img {
   max-width: 31%;
 }
 
@@ -424,6 +436,46 @@ footer {
 
 .description {
   font-size: 12px;
+}
+
+.mainContainer3,
+.mainContainer4,
+.mainContainer5,
+.mainContainer6 {
+  display: none;
+}
+
+.mainContainer3.active {
+  display: grid;
+}
+
+.mainContainer4.active {
+  display: grid;
+}
+
+.speakerButton,
+.speakerButton2 {
+  display: flex;
+  background-color: #fff;
+  gap: 5px;
+  width: 90%;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.speakerButton2 {
+  display: none;
+}
+
+.speakerButton2.active {
+  display: flex;
 }
 
 @media only screen and (min-width: 768px) {
@@ -672,6 +724,18 @@ footer {
 
   #mainSection {
     background-color: #f7f7f7;
+  }
+
+  .mainContainer3,
+  .mainContainer4,
+  .mainContainer5,
+  .mainContainer6 {
+    display: grid;
+  }
+
+  .speakerButton,
+  .speakerButton2 {
+    display: none;
   }
 }
 
