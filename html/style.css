@@ -492,6 +492,14 @@ footer {
   display: flex;
 }
 
+.home-icons {
+  display: none;
+}
+
+.footer-main {
+  background-color: #f7f7f7;
+}
+
 @media only screen and (min-width: 768px) {
   .menu-button {
     display: none;
@@ -764,6 +772,12 @@ footer {
     grid-column: span 2;
     display: flex;
     justify-content: center;
+  }
+
+  .home-icons {
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
   }
 }
 

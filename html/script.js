@@ -22,33 +22,33 @@ const speakers = [{
 }, {
     photo: "images/speaker2.jpg",
     name: "Speaker Two",
-    job: 'International Director X-Cel Specialty Contacts',
+    job: 'Marketing Director X-Cel Specialty Contacts',
     line: "url",
-    description: 'Speaker One is an educator and researcher, she received her degree in Optometry from "UNLP" in Argentina and has been the head of the Contact Lens department for the last 3 years.'
+    description: 'Speaker Two has a Gwinnett University (May 2004) Bachelor degree in Business administration and international business Marketing.'
 }, {
     photo: "images/speaker3.jpg",
     name: "Speaker Three",
-    job: 'International Director X-Cel Specialty Contacts',
+    job: 'CEO M-Flex Contact Lenses',
     line: "url",
-    description: 'Speaker One is an educator and researcher, she received her degree in Optometry from "UNLP" in Argentina and has been the head of the Contact Lens department for the last 3 years.'
+    description: 'Speaker Three is a Optical technician specialized in contact lenses, Sterilization technician and a Ophthalmology technician. Has a diploma in Optometry and a degree in Visual Rehabilitation.'
 }, {
     photo: "images/speaker4.jpg",
     name: "Speaker Four",
-    job: 'International Director X-Cel Specialty Contacts',
+    job: 'Co-investigator in Eye-Risk Clinic',
     line: "url",
-    description: 'Speaker One is an educator and researcher, she received her degree in Optometry from "UNLP" in Argentina and has been the head of the Contact Lens department for the last 3 years.'
+    description: 'Speaker Four works as an optician-optometrist and researcher at the Institut de la Màcula and at the Barcelona Macula Foundation (Hospital Quirón Teknon, Barcelona).'
 }, {
     photo: "images/speaker5.jpg",
     name: "Speaker Five",
-    job: 'International Director X-Cel Specialty Contacts',
+    job: 'Deputy Chief for the corneal bank eye clinic in Maldonado',
     line: "url",
-    description: 'Speaker One is an educator and researcher, she received her degree in Optometry from "UNLP" in Argentina and has been the head of the Contact Lens department for the last 3 years.'
+    description: 'Speaker Five participated in the design, implementation, analysis and communication of observational studies and clinical trials, mainly in retinal diseases.'
 }, {
     photo: "images/speaker6.jpg",
     name: "Speaker Six",
-    job: 'International Director X-Cel Specialty Contacts',
+    job: 'Director of the Expert Course in Geriatric Optometry at UM',
     line: "url",
-    description: 'Speaker One is an educator and researcher, she received her degree in Optometry from "UNLP" in Argentina and has been the head of the Contact Lens department for the last 3 years.'
+    description: 'Speaker six is a Doctor in Vision Sciences from the European University of Madrid with a diploma in Optics from the Complutense University of Madrid.'
 }];
 
 const speakersTitle = document.createElement('h1');
