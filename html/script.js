@@ -132,7 +132,6 @@ for (let i = 0; i < speakers.length; i += 1) {
       speakerButton2.style.display = 'flex';
       speakerButton2.style.order = 3;
       speakerButton.style.display = 'none';
-
     });
 
     buttonS.addEventListener('click', () => {
