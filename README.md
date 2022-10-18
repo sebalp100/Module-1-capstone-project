@@ -4,7 +4,7 @@
 
 > In this project, I set up a conference page with the mobile-first approach for the Home and About sections.
 > There is a responsive dekstop version also included.
-> Using JavaScript, I generater an "Speakers" section by accesing the data stored in an JS Object.
+> Using JavaScript, I generated an "Speakers" section by accesing the data stored in an JS Object.
 > You can find the final version here: https://sebalp100.github.io/Module-1-capstone-project/html/main.html
 
 ## Built With
@@ -57,12 +57,12 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Cindy Shin (https://www.behance.net/adagio07) for her template: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 - The following people for their images:
-  MD Badsha Meah (https://freeicons.io/profile/3335)
-  Gan Khoon Lay (https://freeicons.io/profile/8844)
-  Andrea Piacquadio: https://www.pexels.com/photo/woman-wearing-coat-762020/ , https://www.pexels.com/photo/man-in-brown-button-up-shirt-3789888/ , https://www.pexels.com/photo/man-in-red-polo-shirt-3777952/
-  Christina Morillo: https://www.pexels.com/photo/woman-standing-near-whiteboard-1181519/
-  Thyrone Paas: https://www.pexels.com/photo/portrait-photo-of-man-1722198/
-  Max Fischer from Pexels https://www.pexels.com/photo/photo-of-woman-standing-in-front-of-blackboard-5212320/
+  - MD Badsha Meah (https://freeicons.io/profile/3335)
+  - Gan Khoon Lay (https://freeicons.io/profile/8844)
+  - Andrea Piacquadio: https://www.pexels.com/photo/woman-wearing-coat-762020/ , https://www.pexels.com/photo/man-in-brown-button-up-shirt-3789888/ , https://www.pexels.com/photo/man-in-red-polo-shirt-3777952/
+  - Christina Morillo: https://www.pexels.com/photo/woman-standing-near-whiteboard-1181519/
+  - Thyrone Paas: https://www.pexels.com/photo/portrait-photo-of-man-1722198/
+  - Max Fischer from Pexels https://www.pexels.com/photo/photo-of-woman-standing-in-front-of-blackboard-5212320/
 
 ## 📝 License
 
