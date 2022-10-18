@@ -57,6 +57,9 @@ const speakerText = document.createTextNode('Featured Speakers');
 speakersTitle.appendChild(speakerText);
 document.getElementById('mainSection').appendChild(speakersTitle);
 
+const speakerLine = document.createElement('div');
+speakerLine.classList = 'speakerLine';
+speakersTitle.append(speakerLine);
 
 for (let i = 0; i < speakers.length; i += 1) {
     const mainContainer = document.createElement('div');
@@ -181,5 +184,4 @@ for (let i = 0; i < speakers.length; i += 1) {
         mainContainer.className = 'mainContainer4';
 
     }
-
 }

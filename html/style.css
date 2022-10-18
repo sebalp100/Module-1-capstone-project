@@ -90,7 +90,8 @@ body {
 }
 
 .line-small,
-.line-smallest {
+.line-smallest,
+.speakerLine {
   height: 1px;
   width: 34px;
   background-color: #ec5242;
@@ -151,8 +152,12 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(backpro.png);
+  background-image: url(about_bg_01.png);
+  background-repeat: no-repeat;
   padding: 20px 5%;
+  background-position-y: 17%;
+  background-origin: content-box;
+  background-color: #f7f7f7;
 }
 
 .about h1 {
@@ -310,12 +315,16 @@ footer {
   color: #3b3e47;
 }
 
+#text-about {
+  font-size: 12px;
+}
+
 .logo-bottom {
   display: none;
 }
 
 .logo-bottom-mobile img {
-  width: 80px;
+  width: 156px;
 }
 
 .whole-program {
@@ -388,14 +397,19 @@ footer {
 }
 
 .speakerTitle {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speakerLine {
+  margin-top: 15px;
 }
 
 .mainContainer,
 .mainContainer3,
-.mainContainer4,
-.mainContainer5,
-.mainContainer6 {
+.mainContainer4 {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -603,7 +617,7 @@ footer {
 
   footer {
     background-color: #f7f7f7;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 18px;
   }
 
@@ -614,10 +628,11 @@ footer {
 
   .logo-bottom {
     display: block;
+    padding-left: 9%;
   }
 
   .logo-bottom img {
-    width: 120px;
+    width: 350px;
   }
 
   .about {
@@ -712,10 +727,12 @@ footer {
   .about-foot {
     background-color: #272a31;
     color: #d4d4d4;
+    justify-content: flex-start;
   }
 
   #text-about {
     font-weight: 100;
+    font-size: 16px;
   }
 
   .logo-bottom-mobile {
@@ -727,15 +744,26 @@ footer {
   }
 
   .mainContainer3,
-  .mainContainer4,
-  .mainContainer5,
-  .mainContainer6 {
+  .mainContainer4 {
     display: grid;
   }
 
   .speakerButton,
   .speakerButton2 {
     display: none;
+  }
+
+  #mainSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 4% 7%;
+  }
+
+  .speakerTitle {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -757,5 +785,9 @@ footer {
 
   .program-box {
     padding-left: 0;
+  }
+
+  .logo-bottom {
+    padding-left: 13%;
   }
 }
