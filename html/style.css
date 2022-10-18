@@ -408,8 +408,10 @@ footer {
 }
 
 .mainContainer,
-.mainContainer3,
-.mainContainer4 {
+#mainContainer3,
+#mainContainer4,
+#mainContainer5,
+#mainContainer6 {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -452,18 +454,18 @@ footer {
   font-size: 12px;
 }
 
-.mainContainer3,
-.mainContainer4,
-.mainContainer5,
-.mainContainer6 {
+#mainContainer3,
+#mainContainer4,
+#mainContainer5,
+#mainContainer6 {
   display: none;
 }
 
-.mainContainer3.active {
+#mainContainer3.active {
   display: grid;
 }
 
-.mainContainer4.active {
+#mainContainer4.active {
   display: grid;
 }
 
@@ -747,8 +749,10 @@ footer {
     display: none;
   }
 
-  .mainContainer3,
-  .mainContainer4 {
+  #mainContainer3,
+  #mainContainer4,
+  #mainContainer5,
+  #mainContainer6 {
     display: grid;
   }
 

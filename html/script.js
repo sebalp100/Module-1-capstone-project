@@ -1,7 +1,5 @@
 const menu = document.querySelector('.menu-button');
 const popUp = document.querySelector('.pop');
-const lecture = document.querySelector('.lecture');
-
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('active');
@@ -63,7 +61,6 @@ speakersTitle.append(speakerLine);
 
 for (let i = 0; i < speakers.length; i += 1) {
   const mainContainer = document.createElement('div');
-  const program = document.querySelector('#program');
   mainContainer.classList = 'mainContainer';
   document.getElementById('mainSection').appendChild(mainContainer);
 
@@ -130,57 +127,52 @@ for (let i = 0; i < speakers.length; i += 1) {
 
     buttonS.addEventListener('click', () => {
       const boxes = document.getElementsByClassName('mainContainer');
-      for (const box of boxes) {
-        box.classList.toggle('active');
-        speakerButton.style.order = 2;
-        speakerButton2.style.display = 'flex';
-        speakerButton2.style.order = 3;
-        speakerButton.style.display = 'none';
-      }
+      boxes.className = 'mainContainer:active';
+      speakerButton.style.order = 2;
+      speakerButton2.style.display = 'flex';
+      speakerButton2.style.order = 3;
+      speakerButton.style.display = 'none';
+
     });
 
     buttonS.addEventListener('click', () => {
-      const boxes2 = document.getElementsByClassName('mainContainer3');
-      const boxes3 = document.getElementsByClassName('mainContainer4');
-      for (const box of boxes2) {
-        box.classList.toggle('active');
-      }
+      const boxes2 = document.getElementById('mainContainer3');
+      const boxes3 = document.getElementById('mainContainer4');
+      const boxes4 = document.getElementById('mainContainer5');
+      const boxes5 = document.getElementById('mainContainer6');
 
-      for (const box of boxes3) {
-        if ((speakerButton.style.order = 2)) {
-          box.classList.toggle('active');
-        }
-      }
+      boxes2.id = 'mainContainer3:active';
+      boxes3.id = 'mainContainer4:active';
+      boxes4.id = 'mainContainer5:active';
+      boxes5.id = 'mainContainer6:active';
     });
 
     buttonS2.addEventListener('click', () => {
-      const boxes2 = document.getElementsByClassName('mainContainer3');
-      const boxes3 = document.getElementsByClassName('mainContainer4');
-      for (const box of boxes2) {
-        box.classList.remove('active');
-        buttonS.style.display = 'flex';
-        buttonS2.style.display = 'none';
-      }
+      const boxes2 = document.getElementById('mainContainer3:active');
+      const boxes3 = document.getElementById('mainContainer4:active');
+      const boxes4 = document.getElementById('mainContainer5:active');
+      const boxes5 = document.getElementById('mainContainer6:active');
 
-      for (const box of boxes3) {
-        if ((speakerButton.style.order = 2)) {
-          box.classList.remove('active');
-        }
-      }
+      boxes2.id = 'mainContainer3';
+      boxes3.id = 'mainContainer4';
+      boxes4.id = 'mainContainer5';
+      boxes5.id = 'mainContainer6';
+      buttonS.style.display = 'flex';
+      buttonS2.style.display = 'none';
     });
   }
 
   if (i === 2) {
     mainDiv.className = 'mainDiv3';
-    mainContainer.className = 'mainContainer3';
+    mainContainer.id = 'mainContainer3';
   } else if (i === 3) {
-    mainDiv.className = 'mainDiv4';
-    mainContainer.className = 'mainContainer3';
+    mainDiv.id = 'mainDiv4';
+    mainContainer.id = 'mainContainer4';
   } else if (i === 4) {
     mainDiv.className = 'mainDiv5';
-    mainContainer.className = 'mainContainer4';
+    mainContainer.id = 'mainContainer5';
   } else if (i === 5) {
     mainDiv.className = 'mainDiv6';
-    mainContainer.className = 'mainContainer4';
+    mainContainer.id = 'mainContainer6';
   }
 }
